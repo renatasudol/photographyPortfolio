@@ -1,3 +1,11 @@
+body {
+    font-family: 'Chivo', sans-serif;
+}
+
+main{
+    padding-top: 80px;
+}
+
 .top_menu{
     display: block;
     position: absolute;
@@ -7,7 +15,7 @@
     padding: 0;
     height: 60px;
     width: 100%;
-    background-color: #6f706f;
+    background-color: #3a3a3a;
 }
 
 .top_menu ul {
@@ -31,4 +39,35 @@
 
 .top_menu li a:hover{
     background-color: #b3b9b3; 
+}
+
+.gallery_container{
+    display: flex;
+    height: 400px;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+
+.gallery_picture{
+    flex-grow: 1;
+    order: 1;
+    margin:auto;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+   
+}
+
+.gallery_picture:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_gallery{
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: center center;
 }
