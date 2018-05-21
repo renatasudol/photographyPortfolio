@@ -38,7 +38,7 @@ main{
 }
 
 .top_menu li a:hover{
-    background-color: #b3b9b3; 
+    background-color: #b3b9b3;
 }
 
 .gallery_container{
@@ -58,7 +58,7 @@ main{
     height: 300px;
     width: 400px;
     overflow: hidden;
-   
+
 }
 
 .gallery_picture:hover{
