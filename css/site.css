@@ -44,17 +44,19 @@ main{
 .gallery_container{
   width: 100%;
 }
+
 .row{
   width: 100%;
+  display: flex;
 }
 
 .gallery_picture{
     flex-grow: 1;
     order: 1;
-    margin:auto;
     height: 300px;
     width: 400px;
     overflow: hidden;
+    margin: 20px;
 
 }
 
